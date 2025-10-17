@@ -44,6 +44,12 @@ a {
   object-fit: cover;
 }
 
+.col100{
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+
 /* ====================navbar=============================== */
 
 .navbar {
@@ -51,7 +57,7 @@ a {
   width: 100%;
   min-height: 100px;
   z-index: 100;
-
+margin-top: 16px;
 }
 .navbar .container .row {
   display: flex;
@@ -59,9 +65,7 @@ a {
   align-items: center;
 }
 
-.navbar .container .row .logo {
-  margin-top: 20px;
-}
+
 
 .navbar .container .logo img {
   width: 100px;
@@ -71,21 +75,76 @@ a {
 
 .navbar .container .nav-menu ul {
   display: flex;
+
 }
 .navbar .container .nav-menu ul li {
   padding: 10px 15px;
 }
 .navbar .container .nav-menu ul li a {
-  margin-top: 34px;
   color: #ffffff;
   font-size: 16px;
 }
-.navbar .container .nav-menu ul button {
+.navbar .container .nav-menu ul li a:hover {
+  color: #11e44f;
+}
+.navbar .container .btn button {
   border-radius: 50px;
-  padding: 14px 14px;
+  padding: 17px 32px;
   border: none;
+  background-color: #11e44f;
+  color: #121212;
+  text-transform: capitalize;
+}
+
+.navbar .container .btn button:hover{
+  background-color: #39eb6e;
 }
 
 .navbar .container .hamburger {
   display: none;
+}
+
+
+/* ===========================banner============================= */
+.banner{
+  position: relative;
+  background-image: url(../image/banner.jpg);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner .container .row .col100 .text{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.banner .container .row .col100 .text h1{
+  font-size: 54px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: #ffffff;
+}
+
+.banner .container .row .col100 .text span{
+  color: #11e44f;
+}
+
+.banner .container .row .col100 .text p{
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.banner .container .row .col100 .text button{
+background-color: #11e44f;
+color: #ffffff;
+font-size: 20px;
+padding: 17px 32px;
+border-radius: 50px;
+border: none;
+margin-top: 30px;
+}
+.banner .container .row .col100 .text button:hover{
+  background-color: #39eb6e;
 }
