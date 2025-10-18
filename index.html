@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!--fontaswam  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- responsive -->
@@ -30,7 +45,9 @@
                 </ul>
               </div>
               <div class="btn">
-                <button>get started</button>
+                <button>
+                  get started <i class="fa-solid fa-arrow-right"></i>
+                </button>
               </div>
 
               <div class="hamburger">
@@ -43,21 +60,114 @@
     </main>
 
     <!-- banner -->
-     <section class="banner">
+    <section class="banner">
       <div class="container">
         <div class="row">
           <div class="col100">
-
             <div class="text">
-              <h1>Transform Your <span>Online Business</span>  With Aspire</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet corporis quasi voluptatum aperiam dolore magnam aliquid assumenda et vel nostrum adipisci, eligendi eveniet! Ratione dolorem similique repellendus alias eligendi, ad suscipit architecto fugit itaque voluptas in officia? Totam doloremque neque temporibus officia! Officiis consectetur odit esse, fugit aspernatur unde labore.</p>
-      <button>show more</button>
+              <h1>Transform Your <span>Online Business</span> With Aspire</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+                corporis quasi voluptatum aperiam dolore magnam aliquid
+                assumenda et vel nostrum adipisci, eligendi eveniet! Ratione
+                dolorem similique repellendus alias eligendi, ad suscipit
+                architecto fugit itaque voluptas in officia? Totam doloremque
+                neque temporibus officia! Officiis consectetur odit esse, fugit
+                aspernatur unde labore.
+              </p>
+              <button>read more <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-
           </div>
         </div>
       </div>
-     </section>
+    </section>
+
+    <section class="swiperlorem">
+      <div class="container">
+        <div class="row">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./image/1.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/2.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/3.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/4.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/5.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/1.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/2.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/3.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/4.webp" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/5.webp" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about">
+<div class="container">
+  <div class="row">
+    <div class="col50">
+      <div class="text">
+        <h2><i class="fa-solid fa-circle-notch"></i>About us</h2>
+        <h3>Transforming Businesses with Strategic Marketing</h3>
+        <p>Massa habitant accumsan at hendrerit blandit tellus litora euismod justo. Pretium praesent pellentesque enim rhoncus laoreet natoque etiam pharetra. Purus primis pharetra maecenas a nunc feugiat accumsan.</p>
+
+        <button>learn more</button>
+      </div>
+    </div>
+    <div class="col50">
+      <div class="image">
+        <img src="./image/team.webp" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
 
     <script src="./js/script.js"></script>
   </body>
