@@ -234,11 +234,11 @@
             </div>
           </div>
 
-<div class="col33">
+          <div class="col33">
             <div class="box">
               <div class="text">
                 <i id="icon" class="fa-solid fa-file"></i>
-                <h4>contant marketing</h4>
+                <h4>On-Page SEO</h4>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Tempora adipisci assumenda quasi dicta. Neque labore
@@ -253,12 +253,30 @@
             </div>
           </div>
 
+          <div class="col33">
+            <div class="box">
+              <div class="text">
+                <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+                <h4>Off-Page SEO</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempora adipisci assumenda quasi dicta. Neque labore
+                  reiciendis minus numquam facere! In.
+                </p>
+                <button>
+                  learn more<i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                  ></i>
+                </button>
+              </div>
+            </div>
+          </div>
 
           <div class="col33">
             <div class="box">
               <div class="text">
                 <i id="icon" class="fa-solid fa-file"></i>
-                <h4>contant marketing</h4>
+                <h4>Social Media Marketing</h4>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Tempora adipisci assumenda quasi dicta. Neque labore
@@ -272,33 +290,27 @@
               </div>
             </div>
           </div>
-
 
           <div class="col33">
             <div class="box">
               <div class="text">
-                <i id="icon" class="fa-solid fa-file"></i>
-                <h4>contant marketing</h4>
+                <i id="icon" class="fa-solid fa-address-card"></i>
+                <h4>Analytic Reporting</h4>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Tempora adipisci assumenda quasi dicta. Neque labore
                   reiciendis minus numquam facere! In.
                 </p>
-                <button>
-                  learn more<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i>
-                </button>
+                <button>learn more</button>
               </div>
             </div>
           </div>
-
 
           <div class="col33">
             <div class="box">
               <div class="text">
-                <i id="icon" class="fa-solid fa-file"></i>
-                <h4>contant marketing</h4>
+                <i id="icon" class="fa-solid fa-people-group"></i>
+                <h4>Influencer Marketing</h4>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Tempora adipisci assumenda quasi dicta. Neque labore
@@ -312,29 +324,35 @@
               </div>
             </div>
           </div>
-
-
-          <div class="col33">
-            <div class="box">
-              <div class="text">
-                <i id="icon" class="fa-solid fa-file"></i>
-                <h4>contant marketing</h4>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Tempora adipisci assumenda quasi dicta. Neque labore
-                  reiciendis minus numquam facere! In.
-                </p>
-                <button>
-                  learn more<i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                  ></i>
-                </button>
-              </div>
-            </div>
-          </div>
-
-
         </div>
+      </div>
+    </section>
+
+    <!-- counter -->
+
+    <section class="stats-section">
+      <div class="stat-box">
+        <h2 class="counter" data-target="20">0</h2>
+        <span>+</span>
+        <p>Years of Experience</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="173">0</h2>
+        <span>+</span>
+        <p>Projects Done</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="1500">0</h2>
+        <span>K+</span>
+        <p>Trusted Clients</p>
+      </div>
+
+      <div class="stat-box">
+        <h2 class="counter" data-target="52">0</h2>
+        <span>+</span>
+        <p>Expert Team</p>
       </div>
     </section>
 
@@ -356,6 +374,27 @@
           delay: 2500,
           disableOnInteraction: false,
         },
+      });
+    </script>
+
+    <script>
+      // Simple Counter Animation
+      const counters = document.querySelectorAll(".counter");
+      counters.forEach((counter) => {
+        counter.innerText = "0";
+        const updateCounter = () => {
+          const target = +counter.getAttribute("data-target");
+          const current = +counter.innerText;
+          const increment = target / 100;
+
+          if (current < target) {
+            counter.innerText = `${Math.ceil(current + increment)}`;
+            setTimeout(updateCounter, 40);
+          } else {
+            counter.innerText = target;
+          }
+        };
+        updateCounter();
       });
     </script>
 

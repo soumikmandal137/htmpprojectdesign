@@ -431,3 +431,52 @@ img {
 .service .container .row .col33 .box button:hover {
   background-color: #000000;
 }
+
+/* =======================================================counter========================================================= */
+
+.stats-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  background-image: url(../image/counter.webp);
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  min-width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: scale(1.05);
+}
+
+.stat-box h2 {
+  font-size: 2.5em;
+  display: inline-block;
+  margin: 0;
+}
+
+.stat-box span {
+  font-size: 1.8em;
+  font-weight: bold;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.stat-box p {
+  margin: 10px 0 0;
+  font-weight: bold;
+  font-size: 1.1em;
+}
