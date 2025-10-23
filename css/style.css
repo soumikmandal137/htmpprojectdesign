@@ -61,7 +61,11 @@ img {
   flex: 0 0 33.33%;
   padding: 0 15px;
 }
-
+.col25 {
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 0 15px;
+}
 /* ====================navbar=============================== */
 
 .navbar {
@@ -483,51 +487,57 @@ img {
 
 /* ======================process============================= */
 
-.process{
-  min-height: 500px;
+.process {
+  min-height: 600px;
   position: relative;
   width: 100%;
 }
-.process .container .row .col100 .text{
+.process .container .row .col100 .text {
   text-align: center;
 }
-.process .container .row .col100 .text h2{
+.process .container .row .col100 .text h2 {
   color: #11e44f;
   font-size: 20px;
   font-weight: bold;
   text-transform: capitalize;
 }
-.process .container .row .col100 .text h3{
+.process .container .row .col100 .text h3 {
   color: #fcfcfc;
   font-size: 40px;
   padding-top: 30px;
 }
 
-.process .container .row .col33 h4{
+.process .container .row .col33 h4 {
   color: #fcfcfc;
   margin-top: 30px;
   text-align: center;
-font-size:50px ;
-margin-bottom: 20px;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
-.process .container .row .col33 .box{
+.process .container .row .col33 .box {
   border: 2px solid #ffffff;
   text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-
-.process .container .row .col33 .box i{
-font-size: 76px;
-  color:#11e44f;
+.process .container .row .col33 .box:hover {
+  border: 2px solid #11e44f;
+}
+.process .container .row .col33 .box i {
+  font-size: 76px;
+  color: #11e44f;
   margin-top: 30px;
 }
 
-.process .container .row .col33 .box h5{
+.process .container .row .col33 .box h5 {
   font-size: 30px;
   color: #ffffff;
   margin-top: 30px;
 }
 
-.process .container .row .col33 .box p{
+.process .container .row .col33 .box p {
   color: #ffffff;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -535,3 +545,85 @@ font-size: 76px;
   padding-right: 20px;
 }
 
+/* ======================choose===================================== */
+
+.choose {
+  color: #fff;
+  min-height: 500px;
+  position: relative;
+  width: 100%;
+}
+
+.choose .container .row .col50 .text {
+  padding-left: 30px;
+}
+.choose .container .row .col50 .text i {
+  padding-right: 30px;
+}
+.choose .container .row .col50 .text h2 {
+  font-size: 20px;
+  color: #11e44f;
+}
+
+.choose .container .row .col50 .text h3 {
+  font-size: 40px;
+}
+.choose .container .row .col50 .text p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.features {
+  width: 80%;
+  max-width: 800px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.icon {
+  background-color: #00ff7f;
+  color: #000;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.icon:hover {
+  background-color: #11e44f;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content p {
+  color: #ccc;
+  font-size: 15px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+hr:hover {
+  border-bottom: 1px solid #11e44f;
+}
+
+.feature:first-of-type hr {
+  border-bottom: 2px solid #00ff7f;
+}
