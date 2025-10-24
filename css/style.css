@@ -684,26 +684,24 @@ hr:hover {
   color: white;
 }
 
-
 /* ==========================portfolio================================== */
 
-.portfolio{
-  min-height: 500px;
+.portfolio {
+  min-height: 1000px;
   position: relative;
   width: 100%;
-
 }
-.portfolio .container .row .col100 .text{
+.portfolio .container .row .col100 .text {
   text-align: center;
 }
 
-.portfolio .container .row .col100 .text h2{
-font-size: 30px;
-font-weight: bold;
-text-transform: capitalize;
-color: #11e44f;
+.portfolio .container .row .col100 .text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #11e44f;
 }
-.portfolio .container .row .col100 .text p{
+.portfolio .container .row .col100 .text p {
   color: #fcfcfc;
   text-transform: capitalize;
   text-decoration: none;
@@ -712,15 +710,117 @@ color: #11e44f;
   padding-bottom: 40px;
 }
 
-
-.portfolio .container .row .col33 .box{
+.portfolio .container .row .col33 .box {
   border: 2px solid #ffffff;
   margin-bottom: 30px;
   height: 650px;
-overflow: hidden;
+  overflow: hidden;
 }
 
-.portfolio .container .row .col33 .box .image img{
+.portfolio .container .row .col33 .box .image img {
   height: 650px;
+}
 
+/* ===================testimonial=================== */
+
+.testimonial {
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+.testimonial .container .row .col50 .text h2 {
+  color: #11e44f;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.testimonial .container .row .col50 .text p {
+  font-size: 40px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+
+.testimonial .container .row .col50 .text span {
+  font-size: 16px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.testimonial .container .row .col50  .btn button{
+  background-color: #11e44f;
+  padding: 17px 32px;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.testimonial .container .row .col50 .image img{
+  border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+      border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+}
+
+.testimonial-card {
+  background-color: #111;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #00ff73;
+  margin-right: 15px;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-details h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.user-details .role {
+  color: #00ff73;
+  font-size: 0.9em;
+}
+
+.quote {
+  font-size: 2em;
+  color: #00ff73;
+}
+
+.testimonial-text {
+  color: #ccc;
+  line-height: 1.6;
+  font-size: 0.95em;
 }
