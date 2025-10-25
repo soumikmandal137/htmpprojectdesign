@@ -724,7 +724,7 @@ hr:hover {
 /* ===================testimonial=================== */
 
 .testimonial {
-  min-height: 500px;
+  min-height: 900px;
   width: 100%;
   position: relative;
   margin-top: 50px;
@@ -824,3 +824,47 @@ hr:hover {
   line-height: 1.6;
   font-size: 0.95em;
 }
+
+/* ==================insight========================= */
+.insight{
+  min-height: 500px;
+}
+
+.insight .container .row .col100 .text{
+text-align: center;
+}
+.insight .container .row .col100 .text h2{
+  color: #11e44f;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.insight .container .row .col100 .text h3{
+  color: #fcfcfc;
+  font-size: 30px;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+.insight .container .row .col33 .image {
+  margin-top: 30px;
+    border-radius: 10px;
+opacity: 0.5;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+.insight .container .row .col33 .image img{
+  height: 442px;
+}
+.insight .container .row .col33  .text h4{
+  color:#ffffff;
+ position: absolute;
+ top: 50%;
+ padding-left: 30px;
+ font-size: 28px;
+ max-width: 400px;
+
+}
+
