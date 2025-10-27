@@ -406,6 +406,8 @@
       </div>
     </section>
 
+
+    <!-- choose -->
     <section class="choose">
       <div class="container">
         <div class="row">
@@ -414,7 +416,7 @@
               <img src="./image/business.webp" alt="" />
             </div>
           </div>
-          <div class="col50">
+          <div class="col50"> 
             <div class="text">
               <h2><i class="fa-solid fa-circle-notch"></i>Why we choose us</h2>
               <h3>Empowering Your Business to Thrive</h3>
@@ -435,7 +437,7 @@
                 </p>
               </div>
             </div>
-            <hr />
+            <hr/>
 
             <div class="feature">
               <div class="icon"><i class="fas fa-lightbulb"></i></div>
@@ -474,7 +476,7 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>
@@ -675,9 +677,7 @@
               <div class="image">
                 <img src="./image/card4.webp" alt="" />
               </div>
-              <div class="text">
-                <h4>Creating Compelling Content That Convert</h4>
-              </div>
+            
             </div>
           </div>
           <div class="col33">
@@ -685,9 +685,7 @@
               <div class="image">
                 <img src="./image/card6.webp" alt="" />
               </div>
-              <div class="text">
-                <h4>Creating Compelling Content That Convert</h4>
-              </div>
+             
             </div>
           </div>
           <div class="col33">
@@ -696,9 +694,7 @@
                 <img src="./image/card5.webp" alt="" />
               </div>
 
-              <div class="text">
-                <h4>Creating Compelling Content That Convert</h4>
-              </div>
+      
             </div>
           </div>
         </div>
@@ -815,7 +811,32 @@
           delay: 2500,
           disableOnInteraction: false,
         },
-      });
+
+   breakpoints: {
+         320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        576: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        992:{
+              slidesPerView: 3,
+          spaceBetween: 50,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+
+  
     </script>
 
     <script>
@@ -838,6 +859,10 @@
         updateCounter();
       });
     </script>
+
+
+<!-- Jquery CDN link -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <script src="./js/script.js"></script>
   </body>

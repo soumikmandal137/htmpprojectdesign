@@ -1,0 +1,252 @@
+@media screen and (max-width: 1094px) {
+  .service .container .row .col33 .box h4 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+    text-transform: capitalize;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* ===================== navbar ===================== */
+  .navbar .container .nav-menu ul li {
+    padding: 0 10px;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* ===================== hamburger ===================== */
+  .navbar .container .hamburger {
+    display: inline;
+    color: #ffffff;
+  }
+
+  .navbar .container .nav-menu ul {
+    display: block;
+    position: absolute;
+    top: 101px;
+    background: linear-gradient(rgb(222, 235, 224), rgb(178, 179, 178));
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .navbar .container .nav-menu ul li {
+    padding: 15px 0;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+
+  .banner .container .row .col100 .text h1 {
+    font-size: 45px;
+  }
+
+  .process .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+
+  .choose .container .row .col50 {
+    padding-top: 30px;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .about .container .row .col50 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+    margin-bottom: 40px;
+  }
+
+  .about .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+
+  .about .container .row .col33 .box .text h4 {
+    font-size: 25px;
+  }
+
+  .about .container .row .col33 .box .text p {
+    padding-left: 10px;
+  }
+
+  .service .container .row .col100 .text h2 {
+    font-size: 35px;
+  }
+  .service .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+
+  .choose .container .row .col50 {
+    padding-top: 30px;
+  }
+
+  .portfolio .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+  .service .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .testimonial .container .row .col50 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+  .insight .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .newsletter-box {
+    padding: 30px 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .service .container .row .col100 .text h2 {
+    font-size: 35px;
+  }
+
+  .about .container .row .col50 .text h3 {
+    font-size: 30px;
+  }
+  .about .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .process .container .row .col100 .text h3 {
+    font-size: 35px;
+  }
+  .choose .container .row .col50 .text h3 {
+    font-size: 35px;
+  }
+  .overlay-box h1 {
+    font-size: 20px;
+  }
+  .process .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .portfolio .container .row .col100 .text p {
+    font-size: 35px;
+  }
+  .testimonial .container .row .col50 .text p {
+    font-size: 35px;
+  }
+  .insight .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .overlay-box {
+    padding: 30px 30px;
+  }
+  .portfolio .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .newsletter-box {
+    padding: 20px 20px;
+  }
+  .newsletter-box h2 {
+    font-size: 30px;
+  }
+  .footer .container .row .col25 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .banner .container .row .col100 .text p {
+    font-size: 18px;
+  }
+  .service .container .row .col100 .text h2 {
+    font-size: 20px;
+  }
+  .process .container .row .col100 .text h3 {
+    font-size: 25px;
+  }
+
+  .choose .container .row .col50 .text h3 {
+    font-size: 25px;
+  }
+
+  .overlay-box h1 {
+    font-size: 20px;
+  }
+
+  .overlay-box {
+    padding: 20px 10px;
+  }
+
+  .portfolio .container .row .col100 .text p {
+    font-size: 25px;
+  }
+
+  .testimonial .container .row .col50 .text p {
+    font-size: 25px;
+  }
+  .insight .container .row .col100 .text h3 {
+    font-size: 20px;
+  }
+
+  .newsletter-box {
+    padding: 10px 10px;
+  }
+  .newsletter-box h2 {
+    font-size: 25px;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
